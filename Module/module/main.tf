@@ -14,6 +14,6 @@ module "vpc" {
   vpc_cidr = "172.30.0.0/16"
   vpc_subnetA_cidr = "172.30.128.0/20"
   public_ip = true
-  az = "ap-south-1"
+  az = "ap-south-1a"
 }
 
